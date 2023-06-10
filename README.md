@@ -24,8 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [link](link)
-- Live Site URL: [link](link)
+- Solution URL: [link](https://www.frontendmentor.io/solutions/profil-card-component-using-htmlcss-only-hBaXqNjBjM)
+- Live Site URL: [link](https://profil-card-component-nu.vercel.app/)
 
 ## My process
 
