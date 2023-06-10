@@ -28,7 +28,7 @@ body {
   align-items: center;
   background-color: var(--primary);
   background-image: url('/bg-pattern-top.f25f38c9.svg'), url('/bg-pattern-bottom.11e7f7ba.svg');
-  background-position: calc(0% - 200px) calc(0% - 500px), calc(100% + 200px) calc(100% + 500px);
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
@@ -143,12 +143,6 @@ main.card footer .info {
 .info p {
   font-size: 0.6rem;
   letter-spacing: 2px;
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background-position: calc(0% - 180px) calc(0% - 150px), calc(100% + 180px) calc(100% + 150px);
-  }
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

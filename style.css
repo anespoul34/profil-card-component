@@ -28,7 +28,7 @@ body {
   align-items: center;
   background-color: var(--primary);
   background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
-  background-position: calc(0% - 200px) calc(0% - 500px), calc(100% + 200px) calc(100% + 500px);
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
@@ -143,10 +143,4 @@ main.card footer .info {
 .info p {
   font-size: 0.6rem;
   letter-spacing: 2px;
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background-position: calc(0% - 180px) calc(0% - 150px), calc(100% + 180px) calc(100% + 150px);
-  }
 }
